@@ -1,0 +1,18 @@
+0.0-8
+  o allow to specify encoding for properties file (default UTF-8)
+  o better handling of '=' characters
+  o improve DESCRIPTION file
+0.0-7
+  o prepare for CRAN
+0.0-6
+  o improved automated testing
+0.0-5
+  o fix handling of empty properties
+0.0-4
+  o simplified version covering RSB-produced properties files only 
+0.0-3
+  o trivial error message fix
+0.0-2
+  o add ability to handle comment lines
+0.0-1
+  o initial release of the package
