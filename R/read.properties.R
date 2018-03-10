@@ -3,7 +3,11 @@
 #' @param fields subset of field names, if NULL, all fields are included
 #' @param encoding encoding of the properties file to read (default value \code{"UTF-8"})
 #' @return list with key-value pairs 
-#' @author Tobias Verbeke
+#' @seealso \code{\link{write.properties}} for writing properties files
+#' @examples
+#' tf <- system.file("testFiles", "test0.properties", package = "properties")
+#' read.properties(tf, fields = c("key2", "key3"))
+#' @author Tobias Verbeke, Daan Seynaeve
 #' @export
 read.properties <- function(file, fields = NULL, encoding = "UTF-8"){
     

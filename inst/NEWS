@@ -1,3 +1,6 @@
+0.0-9
+  o add support for writing property files
+  o additional tests
 0.0-8
   o allow to specify encoding for properties file (default UTF-8)
   o better handling of '=' characters
